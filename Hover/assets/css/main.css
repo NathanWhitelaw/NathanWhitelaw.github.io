@@ -1,0 +1,8 @@
+.box {
+height: 200px;
+width: 300px;
+background-color: purple;
+color: #000000;
+border: 20px solid green;
+
+}
