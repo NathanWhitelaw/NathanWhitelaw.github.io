@@ -1,8 +1,42 @@
-.box {
-height: 200px;
-width: 300px;
-background-color: purple;
-color: #000000;
-border: 20px solid green;
+.h1 {
+  color: #ccffc1;
+  margin-left: 300px;
+}
+.h2{
+  margin-left: 800px;
+  color: #ccffc1;
+}
 
+.text {
+  width: 600px;
+  padding-top: 50px;
+  margin-left: 100px;
+  font-family: fantasy;
+  color: #c1fffd;
+}
+.background{
+  background-color: #000000;
+}
+.title{
+  
+}
+.number{
+  border: 1px solid red;
+  color: red;
+
+}
+
+.number:hover {
+  background-color: red;
+  color: #ffffff;
+}
+.footnote{
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  font-family: arial;
+  display: none;
+}
+.footnote.showme {
+  display: block;
 }
